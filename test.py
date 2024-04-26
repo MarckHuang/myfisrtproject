@@ -3,3 +3,4 @@ def info(name, **kw):
     for k,v in kw.items():
         print(k,v)
 info('Mike', age=21, country='Taiwan')
+print(info)
